@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>게임랜드 - by Developer-orensi</title>
+    <link href = "./styles.css" rel =  "stylesheet">
+    <link href = "./style2.css" rel =  "stylesheet">
+
+    
+
+</head>
+<body>
+    <div>
+        <ins class="kakao_ad_area" style="display:none;"
+        data-ad-unit = "DAN-edSXKbmYuowiz4Tf"
+        data-ad-width = "728"
+        data-ad-height = "90"></ins>
+        <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+    </div>
+    
+
+
+
+
+
+
+    <!--이곳에 로그인 구현 예정-->
+
+
+    <div class= "login_page" id="login_pg">
+
+        <h1>회원 가입/로그인</h1>
+        <div> email : <input type="email" placeholder="Email 입력" id="signup_email"></div>
+        <div> password : <input type="password" placeholder="비밀번호 입력" id="signup_password"></div>
+        <button  id="signupbutton">회원가입 하기</button>
+        <button  id="signinbutton">로그인 하러 가기</button>
+
+
+    </div>
+    
+
+
+
+    
+
+    
+
+
+
+
+   
+
+
+    <h1 id = "text" style="color : blue;"> 게임랜드 Made by.Orensi </h1><br>
+
+
+    <div class="user_info">
+
+        <!-- <p id = "info_nickname">닉네임 : 개발중</p> -->
+        <p id = "info_level">레벨 : 1</p>
+        <p id = "info_remainexp">게임을 플레이해 보세요!</p>
+        
+
+    </div>
+
+    <br>
+    <div><ins class="kakao_ad_area" style="display:none;"
+        data-ad-unit = "DAN-wEjoLIvCSJ2XlRV7"
+        data-ad-width = "320"
+        data-ad-height = "50"></ins>
+        <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+    </div>
+    
+    <br>
+
+
+
+
+
+    <strong><p class = "line_1"> 아직 개발이 덜 된 사이트 입니다.</p></strong>
+    <br> <p>업데이트 내역</p>
+    <button id="showandhide">숨기기</button>
+    <p id = "update">2023.10.13 | 배포                                      </p>
+    <p id = "update">2023.10.14 | CSS, JS 기능 활성화 및 두 번째 공식 업데이트</p>
+    <p id = "update">2023.10.14 | 난이도 선택 기능 추가                      </p>
+    <p id = "update">2023.10.15 | 업다운 게임 추가                           </p>
+    <p id = "update">2023.10.15 | 숫자야구 게임 추가                          </p>
+    <p id = "update">2023.10.18 | 반응속도 테스트 게임 기능 추가               </p>
+    <p id = "update">2023.10.20 | 리듬게임 메이커 게임 기능 1/4단게 추가             </p>
+    <p id = "update">2023.10.21 | 리듬게임 메이커 게임 기능 2/4단계 추가               </p>
+    <p id = "update">2023.10.21 | 데이터베이스, 회원가입 기능 추가                   </p>
+    <p id = "update">2023.10.22 | 로그인 기능 추가                               </p>
+    <p id = "update">2023.10.22 | 레벨업 기능 추가                               </p>
+
+
+    <script src = "update_history_hide.js"></script>
+
+
+    <!--   이 문서는 공부를 위해서 제작이 되었다. 그리고 html css 겸용이 너무 편하여서 괜찮닭!-->
+
+    <div>
+        
+    
+
+
+        
+
+        
+        
+        <div>
+            <hr class = borderline>
+            <h4 class = "advertisement">게임 개발자 유튜브 채널 바로가기</h4>
+            <a href="https://www.youtube.com/@orensi">
+                <img src="https://blog.kakaocdn.net/dn/c2yJ7I/btqwXeUM6jI/a3WrMGPo9vakaDzQWepkOK/img.jpg" style="width: 120px;" alt = "Youtube.com">
+            </a>
+
+            
+            
+            
+
+        </div>
+
+        <div>
+
+
+
+        </div>
+
+        <!-- 이스터에그 : 난이도 입력창에서, "ㅅㅁㅈㅎ ??(초성은 맞추세요)" 와, "매우 어려움"을 입력했을 때에는, 숨겨진 코드가 발동 됩니다. 한번 해보세요-->
+        <br class="container">
+
+        <div>
+
+            <br><br>
+
+
+
+       
+            <script src="script.js"></script>
+
+        </div>
+
+
+        <div>
+
+            <hr class = borderline>
+
+            <h1 class = "baseball_01">1번째 게임 : 숫자 맞추기(1~1000)</h1>
+            
+            <input type="number" id="guess">
+           <button id="guessbutton">Guess</button>
+            <button id= "resetbutton">리셋</button>
+            <h1 id = "message" >-</h1>
+
+
+
+            <script src = "number.js"></script>
+
+        </div>
+
+
+        <div><ins class="kakao_ad_area" style="display:none;"
+            data-ad-unit = "DAN-ZrAwFFdnxZoTQo3D"
+            data-ad-width = "320"
+            data-ad-height = "50"></ins>
+            <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+        </div>
+
+
+
+
+        <div>
+
+            <hr class = borderline>
+
+            <br> <h1 class = "baseball_title">< 2번째 게임 : 숫자 야구 - 3자리></h1>
+            
+            <select name="first" id= "first_num">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="0">0</option>
+            </select>
+            <select name="second" id="second_num">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="0">0</option>
+            </select>
+            <select name="third" id="third_num">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="0">0</option>
+            </select>
+            
+            <button id="baseball_guess">숫자 맞추기</button>
+            <button id="baseball_reset">리셋</button>
+
+            <p id="round1">-</p>
+            <p id="round2">-</p>
+            <p id="round3">-</p>
+            <p id="round4">-</p>
+            <p id="round5">-</p>
+            <p id="round6">-</p>
+            <p id="round7">-</p>
+            <p id="round8">-</p>
+            <p id="round9">-</p>
+            <p id="round10"></p>
+
+            <h2>플레이 방법</h2>
+            <p class= "strike_description">스트라이크는 세 자리 중에 숫자와 위치가 모두 맞는 것을 의미합니다.
+                 (예: 정답이 123 일때, 453은 1 스트라이크)</p>
+            <p class= "ball_description">볼은 세 자리 중 숫자는 맞지만, 자리는 틀린 것을 의미합니다.
+                 (예: 정답이 123 일때, 425는 1 볼)
+            </p>
+            <p class="final_description">스트라이크와 볼이 섞여있는 경우에는 스트라이크가 먼저 표시됩니다.</p>
+
+
+
+
+
+            <script src="numberbaseball.js"></script>
+
+        </div>
+
+        <br>
+        <div><ins class="kakao_ad_area" style="display:none;"
+            data-ad-unit = "DAN-Qrfxu0pGgkQV84qJ"
+            data-ad-width = "320"
+            data-ad-height = "50"></ins>
+            <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+        </div>
+        <br>
+
+
+
+
+        <div>
+
+            
+            <br><h2 style="color: purple;">3번째 게임: 반응속도 테스트</h2>
+
+            <br>
+            <button id="speed_button">시작</button>
+            <h2 id="speed_last_record">저번 기록 : null</h2>
+            <p id="speed_trialnum">시도 횟수 : 0</p>
+            <p id="best_rec">최고 : ???ms</p>
+            <p id="speed_average">평균 : 개발중</p>
+
+
+
+
+
+
+
+            
+
+
+
+
+
+            
+
+
+
+
+
+        </div>
+        <br>
+
+
+        <div><ins class="kakao_ad_area" style="display:none;"
+            data-ad-unit = "DAN-CAOvojs2tXqvLZGz"
+            data-ad-width = "320"
+            data-ad-height = "50"></ins>
+            <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+        </div>
+
+        <div>
+            <br><br><br>
+
+
+            <h1 class= "rhythm_game_maker_title"><4번째 게임 : 리듬 게임 메이커></h1>
+
+            <p class="rhythm_game_maker_subtitle">박자는 아래에서부터 위로 진행됩니다. 완료하면 만든 리듬게임을 플레이 할 수 있습니다.</p>
+
+
+            <h2 id = "rhythm_game_maker_stage"><1. 노트 생성 단계></h2>
+
+            <span class="rhythm_checkboxnum">8 :</span><input type="checkbox" class="note" id="note_8_1">
+            <input type="checkbox" class="note" id="note_8_2">
+            <input type="checkbox" class="note" id="note_8_3">
+            <input type="checkbox" class="note" id="note_8_4">
+            <input type="checkbox" class="note" id="note_8_5">
+            <br>
+            <span class="rhythm_checkboxnum">7 :</span><input type="checkbox" class="note" id="note_7_1">
+            <input type="checkbox" class="note" id="note_7_2">
+            <input type="checkbox" class="note" id="note_7_3">
+            <input type="checkbox" class="note" id="note_7_4">
+            <input type="checkbox" class="note" id="note_7_5">
+            <br>
+            <span class="rhythm_checkboxnum">6 :</span><input type="checkbox" class="note" id="note_6_1">
+            <input type="checkbox" class="note" id="note_6_2">
+            <input type="checkbox" class="note" id="note_6_3">
+            <input type="checkbox" class="note" id="note_6_4">
+            <input type="checkbox" class="note" id="note_6_5">
+            <br>
+            <span class="rhythm_checkboxnum">5 :</span><input type="checkbox" class="note" id="note_5_1">
+            <input type="checkbox" class="note" id="note_5_2">
+            <input type="checkbox" class="note" id="note_5_3">
+            <input type="checkbox" class="note" id="note_5_4">
+            <input type="checkbox" class="note" id="note_5_5">
+            <br>
+            <span class="rhythm_checkboxnum">4 :</span><input type="checkbox" class="note" id="note_4_1">
+            <input type="checkbox" class="note" id="note_4_2">
+            <input type="checkbox" class="note" id="note_4_3">
+            <input type="checkbox" class="note" id="note_4_4">
+            <input type="checkbox" class="note" id="note_4_5">
+            <br>
+            <span class="rhythm_checkboxnum">3 :</span><input type="checkbox" class="note" id="note_3_1">
+            <input type="checkbox" class="note" id="note_3_2">
+            <input type="checkbox" class="note" id="note_3_3">
+            <input type="checkbox" class="note" id="note_3_4">
+            <input type="checkbox" class="note" id="note_3_5">
+            <br>
+            <span class="rhythm_checkboxnum">2 :</span><input type="checkbox" class="note" id="note_2_1">
+            <input type="checkbox" class="note" id="note_2_2">
+            <input type="checkbox" class="note" id="note_2_3">
+            <input type="checkbox" class="note" id="note_2_4">
+            <input type="checkbox" class="note" id="note_2_5">
+            <br>
+            <span class="rhythm_checkboxnum">1 :</span><input type="checkbox" class="note" id="note_1_1">
+            <input type="checkbox" class="note" id="note_1_2">
+            <input type="checkbox" class="note" id="note_1_3">
+            <input type="checkbox" class="note" id="note_1_4">
+            <input type="checkbox" class="note" id="note_1_5">
+
+            <input type="number" class = "bpm_input" id="bpm_input_button">
+            <button class="rhythmgamemaker_bpm_submit" id="rhythmgamemaker_bpm_submit">설정 완료</button>
+
+
+
+
+
+            <br>
+
+            <h2 id="rhythmgame_maker_notenum">현재 노트 수 : 0</h2>
+
+            <button class = "class_01" id = "rhythmgame_maker_add">추가</button>  
+            <button class = "class_01"  id = "rhythmgame_maker_complete">완료</button>  
+            <button class = "class_01"  id = "rhythmgame_maker_reset">리셋</button>
+            <h1>4번째 게임은 현재 개발중입니다...</h1>
+
+
+
+
+
+
+
+
+
+            <script src="rhythmgamemaker.js"></script>
+
+
+
+
+
+
+
+
+        </div>
+
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+        
+
+
+
+
+
+
+
+        </div>
+        <script src="reactionspeedtest.js"></script>
+
+        <script src="leveling.js"></script>
+
+
+
+
+
+
+
+
+       <!-- Firebase SDK CDN 링크 -->
+        <script src="https://www.gstatic.com/firebasejs/9.5.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/9.5.0/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/9.5.0/firebase-firestore.js"></script>
+        <!-- 나머지 코드와 Firebase 초기화는 그대로 유지 -->
+
+        
+        
+
+
+        <script type="module">
+        // Import the functions you need from the SDKs you need
+            import {firebase} from "firebase/app"
+            import { initializeApp } from "https://www.gstatic.com/firebasejs/10.5.0/firebase-app.js";
+            import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.5.0/firebase-analytics.js";
+            // TODO: Add SDKs for Firebase products that you want to use
+            // https://firebase.google.com/docs/web/setup#available-libraries
+            
+            // Your web app's Firebase configuration
+            // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+            const firebaseConfig = {
+              apiKey: "AIzaSyAN-WjkMh-CsPiTxfgEZPXNxu7esBo1mwk",
+              authDomain: "my-main-project-a4939.firebaseapp.com",
+              projectId: "my-main-project-a4939",
+              storageBucket: "my-main-project-a4939.appspot.com",
+              messagingSenderId: "166199935650",
+              appId: "1:166199935650:web:afec1de8f7c014619a8dfb",
+              measurementId: "G-HQQHHSER1F"
+
+            };
+            
+            // Initialize Firebase
+            const app = initializeApp(firebaseConfig);
+            const analytics = getAnalytics(app);
+            
+            const auth = getAuth();
+
+            let islogin = false;
+
+            import { getAuth,   createUserWithEmailAndPassword , signInWithEmailAndPassword} from "https://www.gstatic.com/firebasejs/10.5.0/firebase-auth.js";
+            
+           // import { getFirestore } from 'https://www.gstatic.com/firebasejs/10.6.0/firebase-firestore.js'
+ 
+
+            // import {getFirestore} from "firebase/firestore"
+            // import {doc,setDoc} from "firebase/firestore";
+
+            // const db = getFirestore(app);
+            
+
+
+            const signup_button = document.getElementById("signupbutton");
+            signup_button.addEventListener('click', (event) => {
+                event.preventDefault()
+                
+                const email = document.getElementById("signup_email").value
+                const password = document.getElementById("signup_password").value
+            
+            
+            
+                
+                createUserWithEmailAndPassword(auth, email, password)
+                .then((userCredential) => {
+                    console.log(userCredential)
+                    // Signed in 
+                    const user = userCredential.user;
+                    
+                    user_email = user.email;
+
+                    
+                    
+                   
+                    
+                    
+
+                    
+                })
+                .catch((error) => {
+                    const errorCode = error.code;
+                    const errorMessage = error.message;
+                    // ..
+                });
+            
+            })
+            
+            
+
+
+            const login_button = document.getElementById('signinbutton')
+
+            login_button.addEventListener('click', (event) =>{
+                event.preventDefault(); event.preventDefault();
+                const login_email = document.getElementById('signup_email').value;
+                const login_password = document.getElementById("signup_password").value;
+                
+
+                signInWithEmailAndPassword(auth, login_email, login_password)
+                .then((userCredential) => {
+                    // Signed in 
+                    const user = userCredential.user;
+                    console.log(userCredential)
+                    user_email = user.email;
+
+
+                    alert("로그인 성공")
+                    
+
+
+
+                    const login_page_div = document.getElementById("login_pg");
+                    login_page_div.style.display = 'none';
+                    
+                    
+
+                    
+
+                    // ...
+                })
+                .catch((error) => {
+                    const errorCode = error.code;
+                    const errorMessage = error.message;
+                    alert("로그인 실패. 아이디와 비밀번호를 다시 입력하거나 개발자에게 문의하세요")
+                });
+
+
+
+            }) // addeventlistener end
+            
+            let db = firebase.firestore()
+            //var docRef = db.collection("level").doc(user);
+
+
+            const addData = async () => {
+                try {
+                    // 데이터 추가할 컬렉션과 데이터
+                    const collectionName = "level";
+                    const dataToAdd = {
+                        lvl: 10,
+                        
+                        // 추가할 필드 및 값들
+                    };
+
+                    // 데이터 추가
+                    const docRef = await db.collection(collectionName).add(dataToAdd);
+                    console.log("Document written with ID: ", docRef.id);
+                } catch (error) {
+                    console.error("Error adding document: ", error);
+                }
+            };
+
+
+
+            // docRef.set({
+
+            //     level : level
+
+
+            
+
+
+            // })
+            // .then(function() {
+            // console.log("숫자가 저장되었습니다.");
+            // })
+            // .catch(function(error) {
+            // console.error("오류: ", error);
+            // });
+            
+            
+            // "users" 컬렉션에 새로운 문서 추가
+            // db.collection("level").add({
+
+            //     user_email : 1
+            
+            // })
+            // .then(function(docRef) {
+            // console.log("새로운 문서 ID: ", docRef.id);
+            // })
+            // .catch(function(error) {
+            // console.error("오류: ", error);
+            // });
+
+            
+
+            
+
+            
+            
+        
+            </script>
+
+
+
+
+
+            <!-- 광고 -->
+
+            <div><ins class="kakao_ad_area" style="display:none;"
+                data-ad-unit = "DAN-13hviL5X7s9fEthw"
+                data-ad-width = "320"
+                data-ad-height = "50"></ins>
+                <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+            </div>
+            <div><ins class="kakao_ad_area" style="display:none;"
+                data-ad-unit = "DAN-rDyuniUZpciPRsQU"
+                data-ad-width = "320"
+                data-ad-height = "50"></ins>
+                <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+            </div>
+            <div><ins class="kakao_ad_area" style="display:none;"
+                data-ad-unit = "DAN-J3zBL6rLqz7T39hZ"
+                data-ad-width = "320"
+                data-ad-height = "50"></ins>
+                <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+            </div>
+            <div><ins class="kakao_ad_area" style="display:none;"
+                data-ad-unit = "DAN-Tf4r10D6PyMAtaqT"
+                data-ad-width = "320"
+                data-ad-height = "50"></ins>
+                <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+            </div>
+            <div><ins class="kakao_ad_area" style="display:none;"
+                data-ad-unit = "DAN-XpJuUtoS0kfugSOr"
+                data-ad-width = "320"
+                data-ad-height = "50"></ins>
+                <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+            </div>
+            <div><ins class="kakao_ad_area" style="display:none;"
+                data-ad-unit = "DAN-g3ajiJVvCsKciqTH"
+                data-ad-width = "320"
+                data-ad-height = "50"></ins>
+                <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+            </div>
+            <div><ins class="kakao_ad_area" style="display:none;"
+                data-ad-unit = "DAN-NbVKZx7cnYkH1Yps"
+                data-ad-width = "320"
+                data-ad-height = "50"></ins>
+                <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+            </div>
+            <div><ins class="kakao_ad_area" style="display:none;"
+                data-ad-unit = "DAN-l5ODDAPrhZyBmgFd"
+                data-ad-width = "320"
+                data-ad-height = "50"></ins>
+                <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+            </div>
+            <div><ins class="kakao_ad_area" style="display:none;"
+                data-ad-unit = "DAN-rKmOuSy6GBYoxRkk"
+                data-ad-width = "320"
+                data-ad-height = "50"></ins>
+                <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+            </div>
+            <div><ins class="kakao_ad_area" style="display:none;"
+                data-ad-unit = "DAN-IjOp0U81SIQ6y1ks"
+                data-ad-width = "728"
+                data-ad-height = "90"></ins>
+                <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+            </div>
+            <div><ins class="kakao_ad_area" style="display:none;"
+                data-ad-unit = "DAN-cK85wUzOFcT5foxr"
+                data-ad-width = "320"
+                data-ad-height = "50"></ins>
+                <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+            </div>
+            
+            <div><ins class="kakao_ad_area" style="display:none;"
+                data-ad-unit = "DAN-Ddz4k3ccL3CHCPeh"
+                data-ad-width = "300"
+                data-ad-height = "250"></ins>
+                <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+            </div>
+            <div><ins class="kakao_ad_area" style="display:none;"
+                data-ad-unit = "DAN-PDG9I9OL2sS2Dy96"
+                data-ad-width = "300"
+                data-ad-height = "250"></ins>
+                <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+            </div>
+            
+            
+
+            <!-- 다시 띠 -->
+            <div><ins class="kakao_ad_area" style="display:none;"
+                data-ad-unit = "DAN-AqTbe1Dh4ZNYzeSE"
+                data-ad-width = "320"
+                data-ad-height = "50"></ins>
+                <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+            </div>
+            <div><ins class="kakao_ad_area" style="display:none;"
+                data-ad-unit = "DAN-ymIWW4NpSuU2S4UB"
+                data-ad-width = "728"
+                data-ad-height = "90"></ins>
+                <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+            </div>
+            <div><ins class="kakao_ad_area" style="display:none;"
+                data-ad-unit = "DAN-9IQW1UeclkgzlcNc"
+                data-ad-width = "320"
+                data-ad-height = "50"></ins>
+                <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+            </div>
+              
+    
+
+
+
+             
+
+
+
+</body>
+</html>

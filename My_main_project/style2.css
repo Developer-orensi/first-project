@@ -1,0 +1,50 @@
+.rhythm_game_maker_title{
+    color : pink;
+
+
+}
+.note{
+    font-size: 2rem;
+    zoom : 2;
+}
+.rhythm_game_maker_subtitle{
+    color : black;
+    font-size : 1.7rem;
+
+
+}
+.class_01{
+    font-size : 2rem;
+   
+}
+
+.login_page{
+    color : black;
+    
+}
+
+.user_info{
+    color : black;
+
+}
+
+#info_nickname{
+    color : purple;
+  
+}
+#info_level{
+    color : red;
+    font-size : 1.8rem;
+
+}
+
+
+.rhythmgamemaker_bpm_submit{
+    display : none;
+
+}
+
+.bpm_input{
+    display : none;
+    
+}
